@@ -1,0 +1,40 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Comfortaa', cursive;
+
+}
+input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.Icon {
+  margin: 0 auto;
+  display: block;
+}
+
+/* .l{
+  position: absolute;
+width: 118px;
+height: 96px;
+left: 48px;
+top: 18px;
+} */
+
